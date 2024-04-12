@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<title>InputForm</title>
+	</head>
+	<body>
+		<h3>Student Input Form</h3>
+		<form action="inputForm" method="post">
+			<table>
+				<tr>
+					<td>Name :</td>
+					<td><input type="text" name="name"></td>
+				</tr>
+				<tr>
+					<td>Age :</td>
+					<td><input type="age" name="number"></td>
+				</tr>
+				<tr>
+					<td>Address :</td>
+					<td>
+						<input type="radio" name="city" value="Pune">Pune
+						<input type="radio" name="city" value="Mumbai">Mumbai
+					</td>
+				</tr>
+				<tr>
+					<td>Subjects :</td>
+					<td>
+						<select name="subjects" multiple>
+							<option value="Maths">Maths</option>
+							<option value="Science">Science</option>
+							<option value="History">History</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="submit" value="Save"></td>
+					<td><input type="reset" value="Clear"></td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
