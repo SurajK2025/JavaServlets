@@ -6,3 +6,4 @@
 * Using getWriter method of response object to print data on browser window.
 * Creating an input form and receiving the from data into servlet class.
 * Setting response headers.
+* Lazy loading and eager loading of servlets.
